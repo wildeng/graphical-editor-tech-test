@@ -57,3 +57,11 @@ JJJJJ
 ##￼Submission
 
 Fork this project, write some code, let us know!
+
+## Running the project
+
+In the root of the project, from the command line run `./image_editor.rb`. If it lacks the necessary permissions use:
+
+```
+chmod +x image_editor.rb
+```

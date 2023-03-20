@@ -39,7 +39,7 @@ module GraphicalEditorTechTest
       end
     end
 
-    def horizontal_segment(row, col1, col2, colour)
+    def horizontal_segment(col1, col2, row, colour)
       raise GraphicalEditorTechTest::InvalidData if col1 >= col2
 
       @image_content.each_with_index do |_x, r, c|
